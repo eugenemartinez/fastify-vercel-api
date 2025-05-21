@@ -1,5 +1,5 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
-import { default as serverApp } from './server'; // Assuming your Fastify instance is the default export or a named export 'app' or 'server'
+import { default as serverApp } from '../src/server'; // Assuming your Fastify instance is the default export or a named export 'app' or 'server'
 
 // This is a common pattern to ensure the Fastify app is ready
 // and then pass the Vercel req/res to the Fastify instance.
