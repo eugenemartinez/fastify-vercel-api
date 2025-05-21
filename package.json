@@ -2,11 +2,11 @@
   "name": "fastify-experiment",
   "version": "1.0.0",
   "description": "",
-  "main": "api/inidex.ts",
+  "main": "index.js",
   "scripts": {
     "build": "tsc",
     "start": "node api/index.ts",
-    "dev": "ts-node-dev --respawn --transpile-only public/server.ts",
+    "dev": "ts-node-dev --respawn --transpile-only api/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

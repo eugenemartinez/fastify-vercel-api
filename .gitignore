@@ -3,6 +3,7 @@
 
 # Compiled output
 /dist
+/public
 *.tsbuildinfo
 
 # Logs
